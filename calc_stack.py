@@ -9,7 +9,7 @@ for i in varias:
 print(stack)
 
 
-for x in range(int(i)):
+for x in range(len(stack)):
     p = stack.pop()
     n = p ** 2
     print(n)
